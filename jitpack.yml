@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  mvn -V -B -DskipTests=true clean package
+  mvn -V -B -DskipTests=true clean install
