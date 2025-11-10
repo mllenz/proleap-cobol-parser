@@ -18,7 +18,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<exclude.tests>nothing.to.exclude</exclude.tests>
-		<antlr.version>4.7</antlr.version>
+		<antlr.version>4.13.2</antlr.version>
 		<log4j.version>2.8.2</log4j.version>
 	</properties>
 	<profiles>
@@ -93,7 +93,7 @@
 			<plugin>
 				<groupId>org.antlr</groupId>
 				<artifactId>antlr4-maven-plugin</artifactId>
-				<version>4.7</version>
+				<version>4.13.2</version>
 				<executions>
 					<execution>
 						<id>run antlr</id>
@@ -182,3 +182,4 @@
 		</dependency>
 	</dependencies>
 </project>
+
