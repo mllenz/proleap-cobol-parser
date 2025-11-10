@@ -139,6 +139,11 @@
 	</build>
 	<dependencies>
 		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>31.1-jre</version>
+		</dependency>
+		<dependency>
 			<groupId>org.antlr</groupId>
 			<artifactId>antlr4</artifactId>
 			<version>${antlr.version}</version>
@@ -182,4 +187,5 @@
 		</dependency>
 	</dependencies>
 </project>
+
 
